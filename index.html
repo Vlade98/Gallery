@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Gallery</title>
+  </head>
+  <body>
+    <header>
+      <h2>Unsplash Gallery</h2>
+    </header>
+
+    <div class="loading hide"></div>
+
+    <div class="image-popup hide">
+      <div class="loading-2 hide"></div>
+      <ion-icon class="close-btn" name="close-outline"></ion-icon>
+      <img src="" class="large-img" alt="" />
+      <div class="image-footer">
+        <div class="avatar">
+          <img src="" class="avatar-icon" alt="" />
+        </div>
+        <div class="username"></div>
+        <div class="likes">
+          <ion-icon name="heart-outline"></ion-icon
+          ><span class="likes-num"></span>
+        </div>
+        <div>
+          <a href="#" class="portfolio-url" target="_blank">portfolio</a>
+        </div>
+        <div>
+          <a href="#" class="download-btn" target="_blank">download image</a>
+        </div>
+        <a href="#" class="instagram" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a href="#" class="twitter" target="_blank"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="gallery"></div>
+    </div>
+  </body>
+</html>

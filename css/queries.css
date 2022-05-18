@@ -1,0 +1,21 @@
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 55%;
+  }
+  .image-footer {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 34em) {
+  .gallery {
+    grid-gap: 1rem;
+  }
+}
