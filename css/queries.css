@@ -18,4 +18,12 @@
   .gallery {
     grid-gap: 1rem;
   }
+
+  .image-popup {
+    width: 48rem;
+  }
+
+  .image-footer {
+    gap: 1rem;
+  }
 }
